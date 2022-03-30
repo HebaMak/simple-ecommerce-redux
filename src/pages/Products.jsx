@@ -8,7 +8,7 @@ const Products = () => {
   const [loading , setLoading] = useState(false)
   const [componentMounted , setComponentMounted] = useState(true)
   
-  
+
   useEffect(()=>{
     const getProducts = async () => {
       setLoading(true)
@@ -22,7 +22,7 @@ const Products = () => {
       
     }
     getProducts()
-  } , [])
+  } , [componentMounted])
 
   const filterProducts = cat => {
     const updatedData = data.filter(item => item.category === cat)
