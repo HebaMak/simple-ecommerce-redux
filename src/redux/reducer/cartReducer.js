@@ -20,7 +20,6 @@ const cartReducer = (state = initialState , action) => {
           }
         ]
       }
-    break;
 
     case "DEL_ITEM": 
       const exist1 = state.find(x => x.id === product.id)
@@ -30,7 +29,6 @@ const cartReducer = (state = initialState , action) => {
       } else {
         return state.map(x=> x.id === product.id ? {...x , qty: x.qty-1} : x)
       }
-    break;
 
     default: return state;
   }
