@@ -6,8 +6,9 @@ const Products = () => {
   const [data ,  setData] = useState([])
   const [filter ,  setFilter] = useState(data)
   const [loading , setLoading] = useState(false)
-  let componentMounted = true
-
+  const [componentMounted , setComponentMounted] = useState(true)
+  
+  
   useEffect(()=>{
     const getProducts = async () => {
       setLoading(true)
@@ -17,7 +18,7 @@ const Products = () => {
         setFilter(await response.json())
         setLoading(false)
       }
-      return componentMounted = false
+      return setComponentMounted(false)
       
     }
     getProducts()
@@ -47,7 +48,7 @@ const Products = () => {
                 <div className="card h-100 text-center p-4" key={product.id}>
                   <img src={product.image} className="card-img-top" alt={product.tilte} height='250px' />
                   <div className="card-body">
-                    <h5 className="card-title mb-0">{product.title.substring(0,12)}...</h5>
+                    <h3 className="mx-1">{product.title.substring(0,12)}...</h3>
                     <p className="card-text lead fw-bold">{`$${product.price}`}</p>
                     <Link to={`/product/${product.id}`} className="btn btn-outline-dark">Buy now</Link>
                   </div>
@@ -64,7 +65,7 @@ const Products = () => {
     <div className='products-page container my-5 py-5'>
       <div className="row">
         <div className="col-12 mb-5">
-          <h1 className='display-6 fw-bolder text-center'>Latest Products</h1>
+          <h2 className='display-6 fw-bolder text-center'>Latest Products</h2>
           <hr />
         </div>
       </div>
