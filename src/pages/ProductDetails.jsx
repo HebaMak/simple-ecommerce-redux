@@ -23,7 +23,7 @@ const addProduct = product => {
       setLoading(false)
     }
     getProduct()
-  },[product.id])
+  },[id])
 
 
   const ShowProduct = () => {
