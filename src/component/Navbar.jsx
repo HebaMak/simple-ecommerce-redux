@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import { useSelector } from 'react-redux'
+import Login from './btn/Login'
+import Register from './btn/Register'
 
 const Navbar = () => {
 
@@ -13,9 +15,12 @@ const Navbar = () => {
   const state = useSelector(state => state.cartReducer)
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm fixed-top" >
       <div className="container">
-        <Link className="navbar-brand fw-bold fs-4" to="/" onClick={closeCollapse}>Collection</Link>
+        <div className="logo"> 
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1648665496/eCommerce%20images/va9uqhgymopwtpplbtmq.jpg" alt="logo" /> 
+          <Link className="navbar-brand fw-bold fs-4" to="/" onClick={closeCollapse}>Collection</Link>
+        </div>
         <button 
           className="navbar-toggler" 
           type="button" 
@@ -42,12 +47,8 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="buttons">
-            <NavLink to="/login" className='btn btn-outline-dark' >
-              <i className='fa fa-sign-in me-1'></i> Login
-            </NavLink>
-            <NavLink to='/register' className='btn btn-outline-dark ms-2'>
-              <i className='fa fa-user-plus me-1'></i> Register
-            </NavLink>
+            <Login />
+            <Register />
             <NavLink to='/cart' className='btn btn-outline-dark ms-2'>
               <i className='fa fa-shopping-cart me-1'></i> Cart({state.length})
             </NavLink>

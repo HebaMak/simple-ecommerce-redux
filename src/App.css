@@ -21,6 +21,14 @@ body {
 }
 
 /* navbar */
+.navbar {
+  z-index: 9999;
+}
+
+.navbar .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
 .navbar-nav a {
   font-size: 18px;
   font-weight: bold;
