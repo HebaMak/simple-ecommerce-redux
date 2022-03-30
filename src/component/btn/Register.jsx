@@ -41,8 +41,8 @@ const Register = () => {
                 <input type="password" className="form-control" id="registerInputPassword" required minLength='8'/>
               </div>
               <div className="mb-3">
-                <label htmlFor="registerInputPassword" className="form-label">Confirm Password</label>
-                <input type="password" className="form-control" id="registerInputPassword" required minLength='8'/>
+                <label htmlFor="registerInputPasswordConfirm" className="form-label">Confirm Password</label>
+                <input type="password" className="form-control" id="registerInputPasswordConfirm" required minLength='8'/>
               </div>
               <div className="mb-3 form-check">
                 <input type="checkbox" className="form-check-input" id="registerCheck"/>
