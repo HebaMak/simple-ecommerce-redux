@@ -22,7 +22,7 @@ const Products = () => {
       
     }
     getProducts()
-  } , [componentMounted])
+  } , [])
 
   const filterProducts = cat => {
     const updatedData = data.filter(item => item.category === cat)
