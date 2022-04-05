@@ -23,7 +23,6 @@ const About = () => {
 
       <h5>featutes i hope to add to this app</h5>
       <ol>
-        <li>add favorites page with hearts which effect on the home page, product page, and details page.</li>
         <li>add total price to the cart.</li>
         <li>use local storage to save the selected products and total price.</li>
       </ol>
