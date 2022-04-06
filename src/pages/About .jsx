@@ -18,14 +18,10 @@ const About = () => {
         <li>buy now icon direct to the details page of each product in which you can see more details about the product and also you can add it to the cart, you can go to the cart page as well.</li>
         <li>in cart page you can see the image of the product and the price multiple by number of products you select.</li>
         <li>in cart page also you can choose to buy more than one item or even not to buy any and delte it from the cart.</li>
+        <li>in cart page also if there are products you will proceed the checkout page in which you can see the total price and process of pay </li>
         <li>I use Bootsrtap in styling and the app is responsive for different screens</li>
       </ul>
 
-      <h5>featutes i hope to add to this app</h5>
-      <ol>
-        <li>add total price to the cart.</li>
-        <li>use local storage to save the selected products and total price.</li>
-      </ol>
     </div>
   )
 }

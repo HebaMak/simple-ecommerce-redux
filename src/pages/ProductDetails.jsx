@@ -25,7 +25,6 @@ const addProduct = product => {
     getProduct()
   },[id])
 
-
   const ShowProduct = () => {
     return (
       <div className="product-details row">

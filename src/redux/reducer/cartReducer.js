@@ -1,4 +1,4 @@
-const initialState = []
+const initialState = JSON.parse(localStorage.getItem('store')) || []
 
 const cartReducer = (state = initialState , action) => {
   const product = action.payload

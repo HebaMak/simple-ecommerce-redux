@@ -1,10 +1,15 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
 import {useSelector , useDispatch} from 'react-redux'
 import {addCart , delCart} from '../redux/action/actions'
 
 const Cart = () => {
   const state = useSelector(state => state.cartReducer)
   const dispatch = useDispatch()
+
+  useEffect(() => {
+    localStorage.setItem('store' , JSON.stringify(state))
+  }, [state])
 
   const handleAdd = item => {
     dispatch(addCart(item))
@@ -59,9 +64,9 @@ const Cart = () => {
       <>
         <div className="container">
           <div className="row">
-            <Link to='/checkout' className='btn btn-outline-dark mb-5 w-25 mx-auto'>
+            <NavLink to='/checkout' className='btn btn-outline-dark mb-5 w-25 mx-auto'>
               Proceed to Checkout
-            </Link>
+            </NavLink>
           </div>
         </div>
       </>
