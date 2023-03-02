@@ -30,3 +30,9 @@
 * About page: containing app information
 
   [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/sttxqg2480zxp2ysolpa.png)](https://some-url.dev/)
+
+* Login and Register: Bootstrap Models
+
+  [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696889/react-apps/p72xthdqgd3dekfd0wqv.png)](https://some-url.dev/)
+
+  [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/sldzq5s2mgvyktottmyz.png)](https://some-url.dev/)
