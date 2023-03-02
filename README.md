@@ -20,3 +20,9 @@
  
     [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/auzhkz426avry1xwthbt.png)](https://some-url.dev/)
 
+* Product details: 
+  - displays the product details
+  - when user clicks on Add to Cart button, the product will added to the cart
+  - the user can click on Go to Cart and will directed to tha cart  
+
+  [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/ckkqae5rkifnbaxtu9dh.png)](https://some-url.dev/)
