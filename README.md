@@ -26,3 +26,7 @@
   - the user can click on Go to Cart and will directed to tha cart  
 
   [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/ckkqae5rkifnbaxtu9dh.png)](https://some-url.dev/)
+
+* About page: containing app information
+
+  [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/sttxqg2480zxp2ysolpa.png)](https://some-url.dev/)
