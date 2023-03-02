@@ -6,5 +6,7 @@
 
 * the app consists of Home, products, About pages
 
-
+ * Home page, Products: 
+    - display all products in carts
+    - each product cart displays the product image, name , price and a button direct to product details and buy the product
 
