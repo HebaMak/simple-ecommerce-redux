@@ -36,3 +36,17 @@
   [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696889/react-apps/p72xthdqgd3dekfd0wqv.png)](https://some-url.dev/)
 
   [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/sldzq5s2mgvyktottmyz.png)](https://some-url.dev/)
+  
+* Cart:
+  - containing the products that user select to buy
+  - user can buy more than one for each product
+  - user also can remove the product from the cart
+  - use can proceed the buying process by clicking on Proceed to Checkout button at the end of cart page
+
+  [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/ugwtd0jrs15sqe823yk2.png)](https://some-url.dev/)
+  
+  
+  
+  
+  
+  
