@@ -13,3 +13,10 @@
     [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696894/react-apps/o79gwribsgglhyzki2v0.png)](https://some-url.dev/)
 
     [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696891/react-apps/pu9ln1r2q61yi29facr7.png)](https://some-url.dev/)
+    
+    - contains products categories buttons to filter out products 
+
+    [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/ebeh2an3lqq2wrlgd2h3.png)](https://some-url.dev/)
+ 
+    [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/auzhkz426avry1xwthbt.png)](https://some-url.dev/)
+
