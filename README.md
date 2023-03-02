@@ -45,8 +45,10 @@
 
   [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/ugwtd0jrs15sqe823yk2.png)](https://some-url.dev/)
   
-  
-  
+  * Proceed to Checkout:
+  containing data of products price
+
+  [![Header](https://res.cloudinary.com/hapiii/image/upload/v1677696890/react-apps/hjdzsukvwnt4x5msz4hy.png)](https://some-url.dev/)
   
   
   
